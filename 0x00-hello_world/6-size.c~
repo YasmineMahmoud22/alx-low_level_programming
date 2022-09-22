@@ -1,0 +1,12 @@
+#include<stdio.h>
+/**
+* main - Entry point
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+int INTTYPE;
+
+printf("Size of an int: %llu byte(s)"), sizeof(INTTYPE);
+return (0);
+}
