@@ -20,5 +20,7 @@ else
 _putchar('#');
 }
 _putchar('\n');
+if (x == size)
+_putchar('#');
 }
 }
