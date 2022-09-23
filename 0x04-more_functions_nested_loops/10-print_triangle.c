@@ -19,8 +19,8 @@ _putchar(' ');
 else
 _putchar('#');
 }
+if(x == size)
+continue ;
 _putchar('\n');
-if (x == size)
-_putchar('#');
 }
 }
