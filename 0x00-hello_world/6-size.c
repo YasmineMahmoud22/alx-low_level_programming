@@ -11,7 +11,7 @@ long int LONGINT;
 long long int LG;
 float FL;
 
-printf("Size of a char: %zu byte\n", sizeof(CHARTYPE));
+printf("Size of a char: %zu byte(s)\n", sizeof(CHARTYPE));
 printf("Size of an int: %zu byte(s)\n", sizeof(INTTYPE));
 printf("Size of a long int: %zu byte(s)\n", sizeof(LONGINT));
 printf("Size of a long long int: %zu byte(s)\n", sizeof(LG));
