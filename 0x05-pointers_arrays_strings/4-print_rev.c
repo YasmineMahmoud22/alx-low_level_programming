@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_rev - Write a function that prints a reverse string, followed by a new line, to
+* print_rev - Write a function that prints a reverse string to
 * stdout.
 *
 * @s: This is my input string
