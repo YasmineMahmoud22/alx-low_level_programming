@@ -9,7 +9,7 @@ void _puts(char *str)
 int i = 0;
 while (*str != '\0')
 {
-printf("%c",*str);
+printf("%c", *str);
 i++;
 str++;
 }
