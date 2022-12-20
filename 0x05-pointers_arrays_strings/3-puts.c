@@ -1,3 +1,4 @@
+#include"_putchar.c"
 /**
 * _puts - writes the string
 * @str: a pointer to the string
@@ -8,7 +9,7 @@ void _puts(char *str)
 {
 while (*str != '\0')
 {
-printf("%c", *str);
+_putchar(*str);
 str++;
 }
 
