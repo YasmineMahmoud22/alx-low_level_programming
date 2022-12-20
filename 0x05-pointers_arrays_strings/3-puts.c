@@ -1,4 +1,3 @@
-#include"_putchar.c"
 /**
 * _puts - writes the string
 * @str: a pointer to the string
