@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include"4-print_rev.c"
+#include"5-rev_string.c"
 /**
  * main - check the code
  *
@@ -8,9 +8,10 @@
  */
 int main(void)
 {
-     char *str;
+     char s[10] = "My School";
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
     return (0);
 }
