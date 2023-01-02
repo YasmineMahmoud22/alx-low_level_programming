@@ -22,7 +22,7 @@ if (!*needle != '\0')
 {
 return (duplicate);
 }
-haystack++ ;
+haystack++;
 }
 return (0);
 }
